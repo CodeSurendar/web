@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    padding: 0%;
+  list-style: none;
+}
+.text-primary-color{
+    color: #651FFF;
+}
+.wrapper{
+    padding: 100px 0px;
+    background-color: #EBE5FA;
+}
+.screen-wrapper{
+    padding: 60px 0px;
+}
+.Lightning{
+    padding: 150px 0px;
+}
+.Lightning>div>div>div>div{
+    background-color: #651FFF;
+    color: white;
+    border-radius: 20px;
+    padding: 30px 15px;
+}
+.Lightweight>div>div>div>div{
+    padding: 30px 0px;
+    border-radius: 20px;
+}
+.Lightweight>div>div>div:nth-child(1) div {
+    background-color:#FFF7ED;
+}
+.Lightweight>div>div>div:nth-child(2) div {
+    background-color:#E0F7FA;
+}
+.lightweight-wrapper{
+    padding: 50px;
+    background-color: #ECECFE;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.storage{
+    margin: 100px 0px;
+}
+.storage-wrapper >div{
+    background-color: #FFFFFF;
+    /* padding: 20px 0px 0px 10px; */
+    border-radius: 20px;
+    border:1px #ece9e9 solid;
+}
+.storage-transfer-wrapper{
+    padding: 100px 0px;
+    background-image: linear-gradient(#00E5FF 50% ,  #FAFAFA 50%);
+}
+/* .storage-transfer-wrapper:nth-child(1)>div div{
+    margin-bottom: 100px;
+} */
+.pricing{
+    padding: 100px 0px;
+    background: linear-gradient(#00E5FF 55%, #ffffff 45%);
+}
+.pricing-wrapper ul{
+    display: inline-block;
+}
+.pricing-wrapper ul li{
+    display:flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.pricing-wrapper>div>div:nth-child(1)>div{
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 24px 0px rgba(186, 186, 186, 0.2);
+}
+
+
+
+.pricing-wrapper>div>div:nth-child(2)>div{
+    background-color: #651fff;
+    color: #ffffff;
+    padding: 50px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.Account-wrapper{
+    padding: 50px 0px;
+}
+.Buisness {
+    padding: 100px 0px;
+}
+.Buisness-wrapper{
+    padding: 40px 0px;
+}
+.Buisness-wrapper>div>div:nth-child(1)>div {
+    background-color: #651fff;
+    color: #ffffff;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+.Buisness-wrapper>div>div:nth-child(2)>div {
+    background-color: #00E5FF;
+    color: #651FFF;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+/* media query */
+@media screen and (max-width: 770px) {
+    .Lightning>div>div>div>div{
+        margin-bottom: 10px;
+    }
+    .pricing-wrapper>div>div:nth-child(2)>div{
+        border-radius: 25px;
+    }
+  .Buisness>div:nth-child(1)>div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+  }
+  .Buisness-wrapper>div>div:nth-child(1)>div p{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 992px) {
+    .storage-media{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .Buisness-wrapper>div{
+        display: flex;
+        flex-direction: column;
+    }
+  
+}
